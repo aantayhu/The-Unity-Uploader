@@ -1,0 +1,12 @@
+Buffone, Zachary. “2D Platformer Movement in Unity.” Medium, Medium, 24 June 2019, medium.com/@zacharybuffone/2d-platformer-movement-in-unity-9112995412bf. 
+
+Tiny Technical Tutorials. “Amazon/AWS DynamoDB Tutorial for Beginners | Create Your First DynamoDB Table and Items.” YouTube, YouTube, 5 Dec. 2022, www.youtube.com/watch?si=dGOyIj65vHUg45Rp&v=FQrN5aJWa_U&feature=youtu.be. 
+
+Tiny Technical Tutorials. “Amazon/AWS S3 (Simple Storage Service) Basics | S3 Tutorial, Creating a Bucket | AWS for Beginners.” YouTube, YouTube, 1 Dec. 2021, www.youtube.com/watch?si=OhJpSgMYPfB8CZqP&v=mDRoyPFJvlU&feature=youtu.be. 
+
+Tiny Technical Tutorials. “How to Set Up AWS IAM Identity Center and AWS Organizations | AWS Tutorial for Beginners.” YouTube, YouTube, 23 Oct. 2023, www.youtube.com/watch?v=_KhrGFV_Npw&ab_channel=TinyTechnicalTutorials.
+
+Form. React. (n.d.). https://react.dev/reference/react-dom/components/form
+ 
+Responding to events. React. (n.d.-b). https://react.dev/learn/responding-to-events
+
