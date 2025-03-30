@@ -1,10 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
   const [selectedID, changeSelectedID] = useState('games');
   const location = useLocation(); // Hook to get the current location
+
+    const changeWordSize = (id, newSize) => {
+        const elem = document.getElementById(id);
+        if (elem != null) {
+            elem.style.fontSize = `${newSize}px`;
+            elem.style.cursor = (newSize == 40) ? 'pointer' : 'default';
+        }
+    }   
 
   // Effectively update selectedID based on current location/path
   useEffect(() => {
@@ -31,7 +39,7 @@ function Navbar() {
         <Link to='/main-using-unity'>
           <h3 
             id='using-unity' 
-            className={selectedID === 'using-unity' ? 'selected' : ''}
+            className={selectedID === 'main-using-unity' ? 'selected' : ''}
             onMouseEnter={() => changeWordSize('using-unity', 40)} 
             onMouseLeave={() => changeWordSize('using-unity', 18.75)}
             onClick={() => changeSelectedID('using-unity')}
