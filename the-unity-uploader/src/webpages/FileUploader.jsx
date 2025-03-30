@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 function FileUploader() {
     const MAX_IMAGE = 1024*1024; //1 MB for the image
