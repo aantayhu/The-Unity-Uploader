@@ -1,9 +1,17 @@
 .navbar-container {
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     height: 80px;
     min-width: 400px;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+    top: 0px;
+    border-radius: 45px;
+}
+
+.navbar-container h3 {
+    user-select: none
 }

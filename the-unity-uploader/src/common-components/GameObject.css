@@ -1,0 +1,24 @@
+p {
+    margin-top: -2px;
+}
+
+h2 {
+    margin-bottom: -3.5px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    user-select: none;
+}
+
+#root {
+    display: grid;
+}
+
+.download-buttons button{
+    margin-top: -15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
