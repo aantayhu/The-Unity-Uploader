@@ -13,5 +13,20 @@
 }
 
 .navbar-container h3 {
-    user-select: none
+    user-select: none;
+    color: black;
+}
+
+#logo {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(65, 57, 57);
+    border-radius: 50px;
+    user-select: none;
+    left: 0px;
+    top: 0px;
 }

@@ -1,3 +1,4 @@
+import Navbar from "../common-components/Navbar"
 import ryan from "../photos/1743295382029.jpg"
 import daniel from "../photos/1735874434871.jpg"
 import angel from "../photos/1740444203614.jpg"
@@ -8,21 +9,22 @@ function AboutPage() {
     return(
     <>
         <div id = "all">
+            <Navbar />
             <h1>
                 About Page
             </h1>
-            <p>
+            <h2>
                 About:
-            </p>
-            <p>
+            </h2>
+            <h3>
                 What the website is about: Learning all the steps to make, create, and deploy your Unity games.
-            </p>
-            <p>
-                Why are we doing this?: To help developers learn how to create Unity games in a single space.
-            </p>
-            <p>
+            </h3>
+            <h3>
+                Why are we doing this? To help developers learn how to create Unity games in a single space.
+            </h3>
+            <h3>
                 Who created this?
-            </p>
+            </h3>
             <div id = "super">
                 <div>
                     <img src = {ryan} alt = "Ryan Le" width = "200" height = "200"/>

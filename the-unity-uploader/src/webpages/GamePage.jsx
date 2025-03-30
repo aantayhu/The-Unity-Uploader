@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import Navbar from '../common-components/Navbar';
 import GameObject from '../common-components/GameObject';
 import Image1 from '../photos/1713801616273.jpg';
@@ -7,7 +8,6 @@ import './GamePage.css';
 function GamePage() {
     return (
         <>
-            <div id="logo"><strong>The Unity Uploader</strong></div>
             <Navbar />
             <h1>All The Games:</h1>
             <div id='game-container'>
@@ -19,7 +19,11 @@ function GamePage() {
                             title='Example 2' 
                             description='This is the second exmaple of a game object'/>
             </div>
-            <button id='upload-button'>Upload your game!</button>
+            <button id='upload-button'>
+                <Link to='/upload'>
+                    Upload your game!
+                </Link>
+            </button>
         </>
     );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from '../common-components/Navbar';
 import './UploadPage.css';
 import FileUploader from './FileUploader';
 
@@ -22,6 +23,7 @@ function UploadPage() {
 
     return (
         <div className='container'>
+            <Navbar />
             <h1 className="uploader-header">Upload Your Game!</h1>
             <p>Not only can you learn about making games, you can upload your games to this site.</p>
             <form onSubmit={handleSubmit}>
