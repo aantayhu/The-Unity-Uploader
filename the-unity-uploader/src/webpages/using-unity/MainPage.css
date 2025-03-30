@@ -1,0 +1,6 @@
+.link-buttons {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-top: 10px;
+}

@@ -1,6 +1,9 @@
+import Navbar from '../../common-components/Navbar'
+
 function PuzzlePage() {
     return(
         <>
+            <Navbar />
             <h1>
                 Puzzle
             </h1>
@@ -8,7 +11,7 @@ function PuzzlePage() {
                 What are puzzle games? - Puzzle games are games where you are given a problem that you will need to solve using the tools around you, in addition to thinking outside the box at times.
             </p>
             <p>
-                Methods related to movement and jumping
+                Methods related to puzzle set-up and checking
                 <pre>
                     <code>
                         {`

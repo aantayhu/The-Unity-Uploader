@@ -15,6 +15,7 @@
 .navbar-container h3 {
     user-select: none;
     color: black;
+    border-radius: 10px;
 }
 
 #logo {
@@ -30,3 +31,28 @@
     left: 0px;
     top: 0px;
 }
+
+#games {
+    padding: 2px 5px 2px 5px;
+    border-radius: 15px;
+}
+
+#using-unity {
+    padding: 2px 5px 2px 5px;
+    border-radius: 15px;
+}
+
+#upload {
+    padding: 2px 5px 2px 5px;
+    border-radius: 15px;
+}
+
+#about {
+    padding: 2px 5px 2px 5px;
+    border-radius: 15px;
+}
+
+h3.selected {
+    background-color: rgb(111, 91, 91); /* Background color when selected */
+  }
+

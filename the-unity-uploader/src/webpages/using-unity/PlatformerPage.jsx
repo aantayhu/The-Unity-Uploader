@@ -1,6 +1,9 @@
+import Navbar from '../../common-components/Navbar'
+
 function PlatformerPage() {
     return(
         <>
+                <Navbar />
                 <h1>
                     Platformer
                 </h1>
