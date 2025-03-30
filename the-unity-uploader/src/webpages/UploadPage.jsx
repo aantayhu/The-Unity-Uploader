@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './styles/UploadPage.css';
+import './UploadPage.css';
 function UploadPage() {
     const [titleValue, setTitleValue] = useState("");
     const [descriptionValue, setDescriptionValue] = useState("");
