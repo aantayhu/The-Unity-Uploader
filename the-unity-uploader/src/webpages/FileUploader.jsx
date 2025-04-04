@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { uploadGameFile } from '../api/s3Service';
 import { saveGameMetadata } from '../api/dynamoService';
+import Navbar from '../common-components/Navbar';
 
 function FileUploader() {
     const [image, setImage] = useState(null);
@@ -33,7 +34,9 @@ function FileUploader() {
         }
     };
 
-    const handleUpload = async () => {
+    const handleUpload = async (e) => {
+        e.preventDefault();  // Prevent the default form submission
+
         if (!image || !file || !title || !description || !categories) {
             alert("Please fill in all fields and select both an image and a file.");
             return;
@@ -77,7 +80,8 @@ function FileUploader() {
     };
 
     return (
-        <div>
+        <form onSubmit={handleUpload}>
+            <Navbar />
             <h4>Game Title</h4>
             <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Enter game title" />
 
@@ -99,12 +103,12 @@ function FileUploader() {
                 <option value="mac">Mac</option>
             </select>
 
-            <button onClick={handleUpload} disabled={uploading}>
+            <button type="submit" disabled={uploading}>
                 {uploading ? "Uploading..." : "Upload"}
             </button>
 
             <p>{message}</p>
-        </div>
+        </form>
     );
 }
 
